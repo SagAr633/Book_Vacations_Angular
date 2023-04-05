@@ -1,0 +1,11 @@
+.navbar .navbar-brand {
+    /* color: rgb(255, 255, 255); */
+    font-weight: bold;
+    /* background-image: url(../assets/images/nav-bg.png); */
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+    /* color: rgb(255, 255, 255); */
+    font-weight: bold;
+} 

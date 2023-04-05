@@ -1,0 +1,19 @@
+
+
+<div id="main" *ngFor="let item of properties_obj$ | async">
+    
+    <ul>
+        <li id="data">
+            <img src="http://127.0.0.1:8000{{item.images}}" alt="">
+            <h2>{{item.name}}</h2>
+            <h3>{{item.location}}</h3>
+            <h4>{{item.description}}</h4>
+            <h4>{{item.price}}</h4>
+           
+            
+        </li>
+        
+    </ul>
+    
+</div>
+
